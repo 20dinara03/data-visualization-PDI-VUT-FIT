@@ -2,14 +2,20 @@ using BlazorSignalRApp.Client.Pages;
 using BlazorSignalRApp.Components;
 using Microsoft.AspNetCore.ResponseCompression;
 using BlazorSignalRApp.Hubs;
+using Microsoft.Azure.SignalR;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSignalR()
+    .AddAzureSignalR(options =>
+    {
+        options.ConnectionString = "Endpoint=https://xgarip00.service.signalr.net;AccessKey=EL3OQdaEsaEBV6UTlK34pOzdhd0EV5auV1UkJI5khJUUrF5AFqcCJQQJ99AKACPV0roXJ3w3AAAAASRSPg0T;Version=1.0;";
+    });
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
-builder.Services.AddSignalR();
+// builder.Services.AddSignalR();
 
 builder.Services.AddResponseCompression(opts =>
 {
