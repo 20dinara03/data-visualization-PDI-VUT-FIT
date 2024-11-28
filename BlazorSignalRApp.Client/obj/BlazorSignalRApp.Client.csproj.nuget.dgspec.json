@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj": {}
+    "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj": {}
   },
   "projects": {
-    "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj": {
+    "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj",
+        "projectUniqueName": "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj",
         "projectName": "BlazorSignalRApp.Client",
-        "projectPath": "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj",
+        "projectPath": "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp\\BlazorSignalRApp.Client\\obj\\",
+        "outputPath": "C:\\FIT\\MIT1\\PDI\\lab2\\PDI_lab2\\BlazorSignalRApp.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -54,6 +54,10 @@
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
